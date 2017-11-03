@@ -1,0 +1,51 @@
+[submodule "tools/byd"]
+	path = tools/byd
+	url = https://github.com/ledocc/byd
+[submodule "tools/cmut"]
+	path = tools/cmut
+	url = https://github.com/ledocc/cmut
+[submodule "packages/boost"]
+	path = packages/boost
+	url = https://github.com/bydist/boost.git
+[submodule "packages/bzip2"]
+	path = packages/bzip2
+	url = https://github.com/bydist/bzip2.git
+[submodule "packages/GoogleBreakpad"]
+	path = packages/GoogleBreakpad
+	url = https://github.com/bydist/GoogleBreakpad.git
+[submodule "packages/icu"]
+	path = packages/icu
+	url = https://github.com/bydist/icu.git
+[submodule "packages/libjpeg_turbo"]
+	path = packages/libjpeg_turbo
+	url = https://github.com/bydist/libjpeg_turbo.git
+[submodule "packages/libpng"]
+	path = packages/libpng
+	url = https://github.com/bydist/libpng.git
+[submodule "packages/libproxy"]
+	path = packages/libproxy
+	url = https://github.com/bydist/libproxy.git
+[submodule "packages/LibVNCServer"]
+	path = packages/LibVNCServer
+	url = https://github.com/bydist/LibVNCServer.git
+[submodule "packages/libwebp"]
+	path = packages/libwebp
+	url = https://github.com/bydist/libwebp.git
+[submodule "packages/OpenSSL"]
+	path = packages/OpenSSL
+	url = https://github.com/bydist/OpenSSL.git
+[submodule "packages/Poco"]
+	path = packages/Poco
+	url = https://github.com/bydist/Poco.git
+[submodule "packages/Qt5"]
+	path = packages/Qt5
+	url = https://github.com/bydist/Qt5.git
+[submodule "packages/QuaZip"]
+	path = packages/QuaZip
+	url = https://github.com/bydist/QuaZip.git
+[submodule "packages/turtle"]
+	path = packages/turtle
+	url = https://github.com/bydist/turtle.git
+[submodule "packages/zlib"]
+	path = packages/zlib
+	url = https://github.com/bydist/zlib.git

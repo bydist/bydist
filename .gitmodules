@@ -10,6 +10,9 @@
 [submodule "packages/bzip2"]
 	path = packages/bzip2
 	url = https://github.com/bydist/bzip2.git
+[submodule "packages/gen_prog"]
+	path = packages/gen_prog
+	url = https://github.com/bydist/gen_prog.git
 [submodule "packages/GoogleBreakpad"]
 	path = packages/GoogleBreakpad
 	url = https://github.com/bydist/GoogleBreakpad.git

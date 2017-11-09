@@ -30,6 +30,8 @@ set(CMAKE_MACOSX_RPATH TRUE)
 #byd__add_package(libzip)
 #byd__add_package(libzippp)
 
+byd__add_package(gen_prog)
+
 byd__add_package(boost
     COMPONENTS
 	date_time

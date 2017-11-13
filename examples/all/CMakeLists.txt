@@ -34,23 +34,23 @@ byd__add_package(gen_prog)
 
 byd__add_package(boost
     COMPONENTS
-	date_time
-	exception
-	filesystem
-	iostreams
-	locale
-	program_options
-	regex
-	system
-	test
+        date_time
+        exception
+        filesystem
+        iostreams
+        locale
+        program_options
+        regex
+        system
+        test
         thread
-	timer
+        timer
 )
 
 if((NOT ANDROID) OR (ANDROID AND (CMAKE_SYSTEM_VERSION VERSION_GREATER 19)))
     byd__add_package(boost
         COMPONENTS
-	log
+        log
         )
 endif()
 
@@ -108,5 +108,3 @@ endif()
 #byd__add_package(ThreadPool)
 
 byd__run()
-
-install(CODE "message(\"start install step\")")

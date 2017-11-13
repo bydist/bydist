@@ -98,10 +98,6 @@ if(NOT ANDROID)
             COMPONENTS
                 vncclient
         )
-        byd__add_package(libwebp
-            COMPONENTS
-                libwebpdemux
-        )
     endif()
 endif()
 

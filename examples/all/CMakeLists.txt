@@ -34,6 +34,7 @@ byd__add_package(gen_prog)
 
 byd__add_package(boost
     COMPONENTS
+        boost
         date_time
         exception
         filesystem

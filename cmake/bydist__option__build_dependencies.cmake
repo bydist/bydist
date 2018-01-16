@@ -14,6 +14,7 @@ function(bydist__option__build_dependencies source_dir)
 
         bydist__configure_and_build(
             "${source_dir}"
+            CMAKE_ARGS "-D${PROJECT_NAME}_BUILD_TESTING=${BUILD_TESTING}"
         )
 
         set(dependencies_install "${CMAKE_BINARY_DIR}/byd/_install")

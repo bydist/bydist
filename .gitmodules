@@ -58,3 +58,6 @@
 [submodule "packages/rapidjson"]
 	path = packages/rapidjson
 	url = git@github.com:bydist/rapidjson.git
+[submodule "packages/googletest"]
+	path = packages/googletest
+	url = git@github.com:bydist/googletest.git

@@ -1,6 +1,4 @@
 
-include("${CMUT_ROOT}/cmut_message.cmake")
-
 function(bydist__option__build_dependencies source_dir)
 
     option(BUILD_DEPENDENCIES "Enable to build dependencies with bydist" OFF)

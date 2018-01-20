@@ -57,7 +57,7 @@
 	url = https://github.com/bydist/LibreSSL.git
 [submodule "packages/rapidjson"]
 	path = packages/rapidjson
-	url = git@github.com:bydist/rapidjson.git
+	url = https://github.com/bydist/rapidjson.git
 [submodule "packages/googletest"]
 	path = packages/googletest
-	url = git@github.com:bydist/googletest.git
+	url = https://github.com/bydist/googletest.git

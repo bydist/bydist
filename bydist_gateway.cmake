@@ -5,3 +5,7 @@ endif()
 include("${CMAKE_CURRENT_LIST_DIR}/cmake/bydist__option__build_dependencies.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/cmake/bydist__configure_and_build.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/tools/byd/cmake/modules/byd__generate_and_build.cmake")
+
+list(INSERT CMAKE_MODULE_PATH 0
+    "${CMAKE_CURRENT_LIST_DIR}/cmake/find"
+    )

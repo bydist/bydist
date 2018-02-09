@@ -17,12 +17,14 @@ function(bydist__option__build_dependencies source_dir)
 
         set(dependencies_install "${CMAKE_BINARY_DIR}/byd/_install")
 
-        set(CMAKE_PREFIX_PATH "${dependencies_install}" "${CMAKE_PREFIX_PATH}" PARENT_SCOPE)
+        cmut__utils__list_prepend(CMAKE_PREFIX_PATH "${dependencies_install}")
         cmut_info("[${PROJECT_NAME}] : CMAKE_PREFIX_PATH = ${CMAKE_PREFIX_PATH}")
+        set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH}" PARENT_SCOPE)
 
         if(ANDROID)
-            set( CMAKE_FIND_ROOT_PATH "${dependencies_install}" PARENT_SCOPE)
+            set( CMAKE_FIND_ROOT_PATH "${dependencies_install}")
             cmut_info("[${PROJECT_NAME}] : CMAKE_FIND_ROOT_PATH = ${CMAKE_FIND_ROOT_PATH}")
+            set( CMAKE_FIND_ROOT_PATH "${CMAKE_FIND_ROOT_PATH}" PARENT_SCOPE)
         endif()
 
     endif()

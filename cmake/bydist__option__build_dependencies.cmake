@@ -6,13 +6,24 @@ function(bydist__option__build_dependencies source_dir)
 
     if(BUILD_DEPENDENCIES)
 
+        cmut__utils__parse_arguments(
+            bydist__option__build_dependencies
+            ARG_
+            ""
+            ""
+            "CMAKE_ARGS"
+            ${ARGN}
+            )
+
+
+
         if(CMAKE_TOOLCHAIN_FILE AND (NOT IS_ABSOLUTE "${CMAKE_TOOLCHAIN_FILE}"))
             cmut_fatal("CMAKE_TOOLCHAIN_FILE should be an absolute path.")
         endif()
 
         bydist__configure_and_build(
             "${source_dir}"
-            CMAKE_ARGS "-D${PROJECT_NAME}_BUILD_TESTING=${BUILD_TESTING}"
+            CMAKE_ARGS "-D${PROJECT_NAME}_BUILD_TESTING=${BUILD_TESTING}" ${ARG__CMAKE_ARGS}
         )
 
         set(dependencies_install "${CMAKE_BINARY_DIR}/byd/_install")

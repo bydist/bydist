@@ -4,8 +4,8 @@
 [submodule "tools/cmut"]
 	path = tools/cmut
 	url = https://github.com/ledocc/cmut
-[submodule "packages/boost"]
-	path = packages/boost
+[submodule "packages/Boost"]
+	path = packages/Boost
 	url = https://github.com/bydist/boost.git
 [submodule "packages/bzip2"]
 	path = packages/bzip2

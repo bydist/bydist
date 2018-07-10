@@ -64,3 +64,6 @@
 [submodule "packages/uri"]
 	path = packages/uri
 	url = https://github.com/bydist/uri.git
+[submodule "packages/nlohmann_json"]
+	path = packages/nlohmann_json
+	url = https://github.com/bydist/nlohmann_json.git

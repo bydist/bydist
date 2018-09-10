@@ -67,3 +67,9 @@
 [submodule "packages/nlohmann_json"]
 	path = packages/nlohmann_json
 	url = https://github.com/bydist/nlohmann_json.git
+[submodule "packages/freetype"]
+	path = packages/freetype
+	url = https://github.com/bydist/freetype
+[submodule "packages/harfbuzz"]
+	path = packages/harfbuzz
+	url = https://github.com/bydist/harfbuzz

@@ -6,4 +6,4 @@ get_filename_component(BYD_ROOT "${BYDIST_ROOT}/tools/byd" ABSOLUTE)
 
 include("${BYD_ROOT}/byd.cmake")
 
-byd__add_package_repositories("${BYDIST_ROOT}/packages")
+byd__add_fallback_package_repositories("${BYDIST_ROOT}/packages")

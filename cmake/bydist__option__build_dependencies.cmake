@@ -26,7 +26,7 @@ function(bydist__option__build_dependencies source_dir)
             CMAKE_ARGS "-D${PROJECT_NAME}_BUILD_TESTING=${BUILD_TESTING}" ${ARG__CMAKE_ARGS}
         )
 
-        set(dependencies_install "${CMAKE_BINARY_DIR}/byd/_install")
+        set(dependencies_install "${PROJECT_BINARY_DIR}/byd/_install")
 
         cmut__utils__list_prepend(CMAKE_PREFIX_PATH "${dependencies_install}")
         cmut_info("[${PROJECT_NAME}] : CMAKE_PREFIX_PATH = ${CMAKE_PREFIX_PATH}")

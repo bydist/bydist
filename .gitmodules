@@ -73,3 +73,6 @@
 [submodule "packages/harfbuzz"]
 	path = packages/harfbuzz
 	url = https://github.com/bydist/harfbuzz
+[submodule "packages/winsparkle"]
+	path = packages/winsparkle
+	url = https://github.com/bydist/winsparkle.git
